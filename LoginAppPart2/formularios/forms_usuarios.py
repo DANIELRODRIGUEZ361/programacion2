@@ -47,7 +47,7 @@ class FormUsuarios(tk.Tk):
         btn_guardar.place(x=70, y=190)
 
         btn_actualizar = tk.Button(self.frame, text="Actualizar", font=('Times', 14), command=self.actualizar_usuario)
-        btn_actualizar.place(x=170, y=580)
+        btn_actualizar.place(x=170, y=550)
 
         self.listar_usuarios()
 
